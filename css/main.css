@@ -1,1 +1,22 @@
 /* Los estilos de tu proyecto */
+
+
+/*GRID SISTEM*/
+
+/*DIN GRID SISTEM*/
+
+
+/*VERSION MOBILE*/
+
+header nav div buttom.header-buttom-left{
+    float: left;
+}
+
+header nav div a.header-brand-rigth{
+    float: right;
+}
+
+
+
+
+/*VERSION DESKTOP*/
