@@ -19,6 +19,37 @@ a.header-brand-rigth{
     margin-right: 20px;
 }
 
+.nav-padding{
+    padding: 10px 20px;
+}
+
+.bg-header-color{
+    background-color: #fff;
+    border: none;
+
+}
+
+button.btn-border{
+    border: none;
+}
+
+.section-container{
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+}
+
+.bg-image{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-taxi{
+    background-image: url(../assets/images/taxi.jpg);
+    height: 550px;
+}
+
 /*VERSION DESKTOP*/
 @media (min-width: 768px){
 
