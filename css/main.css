@@ -1,22 +1,28 @@
+
 /* Los estilos de tu proyecto */
 
 
 /*GRID SISTEM*/
 
-/*DIN GRID SISTEM*/
+/*FIN GRID SISTEM*/
 
 
 /*VERSION MOBILE*/
 
-header nav div buttom.header-buttom-left{
+button.btn-left{
     float: left;
+    margin-left: 20px;
 }
 
-header nav div a.header-brand-rigth{
+a.header-brand-rigth{
     float: right;
+    margin-right: 20px;
 }
-
-
-
 
 /*VERSION DESKTOP*/
+@media (min-width: 768px){
+
+    button.btn-margin-left{
+        margin-left: 20px;
+    }
+}
