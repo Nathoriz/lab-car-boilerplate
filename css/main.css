@@ -23,6 +23,17 @@
   height: 17px;
 }
 
+/*Cuadro de Registro Naranja* DESKTOP*/
+@media screen and (min-width: 768px) {
+  .register {
+    width: 299px;
+    background-color: #ffc107;
+    float: right;
+    padding-left: 28px;
+  }
+}
+
+
 /*GRID SISTEM*/
 
 /*FIN GRID SISTEM*/
