@@ -1,6 +1,24 @@
 
 /* Los estilos de tu proyecto */
 
+/* cuadro de Registro Naranja*/
+.register {
+  width: 357px;
+  height: 140px;
+  background-color: #ffb923;
+  float: right;
+}
+ h1 {
+   color: white;
+   text-align: left;
+   padding: 10px;
+ }
+
+.M-whitelogo {
+  margin-left: 8px;
+  width: 70px;
+  height: 17px;
+}
 
 /*GRID SISTEM*/
 
