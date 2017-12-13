@@ -2,6 +2,7 @@
 /* Los estilos de tu proyecto */
 
 /* cuadro de Registro Naranja Movile*/
+
 .register {
     width: 299px;
     background-color: #ffc107;
@@ -26,11 +27,32 @@
 /*Cuadro de Registro Naranja* DESKTOP*/
 @media screen and (min-width: 768px) {
   .register {
-    width: 299px;
-    background-color: #ffc107;
-    float: right;
-    padding-left: 28px;
+    display: none;
   }
+
+  .register-desktop {
+      width: 299px;
+      background-color: #ffc107;
+      float: right;
+      padding-left: 28px;
+  }
+
+   h1 {
+     color: white;
+     text-align: left;
+     padding: 10px;
+     font-size: 29px;
+     font-family: 'Raleway', sans-serif;
+   }
+
+  .M-whitelogo {
+    margin-left: 8px;
+    width: 70px;
+    height: 17px;
+  }
+
+
+
 }
 
 
