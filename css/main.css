@@ -1,22 +1,120 @@
 
 /* Los estilos de tu proyecto */
 
-/* cuadro de Registro Naranja Movile*/
 
+/*GRID SISTEM*/
+
+/*FIN GRID SISTEM*/
+
+
+
+/*VERSION MOBILE*/
+
+/* cuadro de Registro Naranja Movile*/
+@media (max-width: 600px) {
+.register-desktop .contenidoDesktop {
+  display: none;
+}
+}
 .register {
-    width: 299px;
-    background-color: #ffc107;
-    float: right;
-    padding-left: 28px;
+  width: 299px;
+  background-color: #ffc107;
+  float: right;
+  padding-left: 28px;
+  padding-bottom: 20px;
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  padding: 10px;
+  font-size: 29px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h3 {
+  color: white;
+  text-align: left;
+  font-size: 19px;
+  padding-left: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.M-whitelogo {
+  margin-left: 8px;
+  width: 70px;
+  height: 17px;
+}
+/*fin del cuadro de registro*/
+
+button.btn-left {
+  float: left;
+  margin-left: 20px;
+}
+
+a.header-brand-rigth {
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-padding {
+  padding: 10px 20px;
+}
+
+.bg-header-color {
+  background-color: #fff;
+  border: none;
+
+}
+
+button.btn-border {
+  border: none;
+}
+
+.section-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+.bg-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.image-taxi {
+  background-image: url(../assets/images/taxi.jpg);
+  height: 550px;
+}
+
+
+/*VERSION DESKTOP*/
+@media (min-width: 768px) {
+.register {
+  display: none;
+}
+
+button.btn-margin-left {
+  margin-left: 20px;
+}
+/*Cuadro de Registro Naranja* DESKTOP*/
+
+.register-desktop {
+  width: 299px;
+  background-color: #ffc107;
+  float: right;
+  padding-left: 28px;
+  padding-bottom: 20px;
 }
 
  h1 {
-   color: white;
-   text-align: left;
-   padding: 10px;
-   font-size: 29px;
-   font-family: 'Raleway', sans-serif;
- }
+  color: white;
+  text-align: left;
+  padding: 10px;
+  font-size: 29px;
+  font-family: 'Raleway', sans-serif;
+}
 
 .M-whitelogo {
   margin-left: 8px;
@@ -24,90 +122,4 @@
   height: 17px;
 }
 
-/*Cuadro de Registro Naranja* DESKTOP*/
-@media screen and (min-width: 768px) {
-  .register {
-    display: none;
-  }
-
-  .register-desktop {
-      width: 299px;
-      background-color: #ffc107;
-      float: right;
-      padding-left: 28px;
-  }
-
-   h1 {
-     color: white;
-     text-align: left;
-     padding: 10px;
-     font-size: 29px;
-     font-family: 'Raleway', sans-serif;
-   }
-
-  .M-whitelogo {
-    margin-left: 8px;
-    width: 70px;
-    height: 17px;
-  }
-
-
-
-}
-
-
-/*GRID SISTEM*/
-
-/*FIN GRID SISTEM*/
-
-
-/*VERSION MOBILE*/
-
-button.btn-left{
-    float: left;
-    margin-left: 20px;
-}
-
-a.header-brand-rigth{
-    float: right;
-    margin-right: 20px;
-}
-
-.nav-padding{
-    padding: 10px 20px;
-}
-
-.bg-header-color{
-    background-color: #fff;
-    border: none;
-
-}
-
-button.btn-border{
-    border: none;
-}
-
-.section-container{
-    box-sizing: border-box;
-    width: 100%;
-    height: auto;
-}
-
-.bg-image{
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.image-taxi{
-    background-image: url(../assets/images/taxi.jpg);
-    height: 550px;
-}
-
-/*VERSION DESKTOP*/
-@media (min-width: 768px){
-
-    button.btn-margin-left{
-        margin-left: 20px;
-    }
-}
+ }
