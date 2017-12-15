@@ -10,18 +10,86 @@
 
 /*VERSION MOBILE*/
 
+h1, h2, h3 , h4{
+  margin: 0;
+}
+
+.section-container {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+}
+
+.bg-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+/*header*/
+
+button.btn-left {
+  float: left;
+  margin-left: 20px;
+}
+
+a.header-brand-rigth {
+  float: right;
+  margin-right: 20px;
+}
+
+.nav-padding{
+  padding: 15px 25px;
+}
+
+.nav-margin{
+  margin: 0px;
+}
+
+.nav-border{
+  border: none;
+  border-radius: 0px;
+}
+
+.bg-header-color {
+  background-color: #fff;
+  border: none;
+
+}
+
+button.btn-border {
+  border: none;
+}
+
+/*section 1*/
+
+.image-taxi {
+  background-image: url(../assets/images/taxi.jpg);
+  height: 650px;
+}
+
+.bg-color-orange{
+  background-color: #f7b617;
+}
+
+
 /* cuadro de Registro Naranja Movile*/
 @media (max-width: 600px) {
 .register-desktop .contenidoDesktop {
   display: none;
 }
 }
+
+
 .register {
   width: 299px;
   background-color: #ffc107;
   float: right;
-  padding-left: 28px;
-  padding-bottom: 20px;
+  padding: 20px 28px;
 }
 
 h1 {
@@ -47,65 +115,70 @@ h3 {
 }
 /*fin del cuadro de registro*/
 
-button.btn-left {
-  float: left;
-  margin-left: 20px;
+/*section 2*/
+
+/*Clases reutilizables*/
+
+
+.mobile{
+  display: block;
 }
 
-a.header-brand-rigth {
-  float: right;
-  margin-right: 20px;
+.desktop{
+  display: none;
 }
 
-.nav-padding {
-  padding: 10px 20px;
+/*fin Clases reutilizables*/
+
+.image-phone{
+  height: 400px;
+  display: inline-block;
 }
-
-.bg-header-color {
-  background-color: #fff;
-  border: none;
-
-}
-
-button.btn-border {
-  border: none;
-}
-
-.section-container {
-  box-sizing: border-box;
-  width: 100%;
+.about{
+  width: 300px;
   height: auto;
+  display: inline-block; 
 }
 
-.bg-image {
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+/*section 3*/
+
+.image-conduce{
+  background-image: url(../assets/images/conduce.jpg);
+  height: 400px;
 }
 
-.image-taxi {
-  background-image: url(../assets/images/taxi.jpg);
-  height: 550px;
-}
+/*section 4*/
+
+
+/*section 5*/
+
+
+
+
 
 
 /*VERSION DESKTOP*/
 @media (min-width: 768px) {
-.register {
-  display: none;
-}
+
 
 button.btn-margin-left {
   margin-left: 20px;
 }
+
+
+/*section 1*/
+
 /*Cuadro de Registro Naranja* DESKTOP*/
+
+.register {
+  display: none;
+}
 
 .register-desktop {
   width: 299px;
   background-color: #ffc107;
   float: right;
-  padding-left: 28px;
-  padding-bottom: 20px;
+  padding: 20px 28px;
 }
 
  h1 {
@@ -121,5 +194,17 @@ button.btn-margin-left {
   width: 70px;
   height: 17px;
 }
+
+
+/*section 2*/
+.mobile{
+  display: none;
+}
+
+.desktop{
+  display: block;
+}
+
+
 
  }
