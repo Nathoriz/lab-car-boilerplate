@@ -30,7 +30,6 @@ Este proyecto contiene:
 
 6. Un archivo  **`README.md`** que explica el contenido del repositorio.
 
-
 ## __Autoras__
 
 * Nataly Ortiz.
