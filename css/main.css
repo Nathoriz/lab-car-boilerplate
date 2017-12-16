@@ -149,6 +149,26 @@ h3 {
   height: 400px;
 }
 
+.m-blackDiv{
+  background-color:black;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+.info{
+  margin: 110px 20px;
+}
+
+.info h3{
+  margin-bottom: 15px;
+}
+
+.info button{
+  background-color: #f7b617;
+  color: #fff;
+  border: none;
+}
 /*section 4*/
 
 
@@ -201,6 +221,7 @@ button.btn-margin-left {
 
 
 /*section 2*/
+
 .mobile{
   display: none;
 }
