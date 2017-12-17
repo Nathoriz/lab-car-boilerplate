@@ -177,6 +177,16 @@ h3 {
 
 
 /*section 5*/
+.bg-color-black {
+  background-color: black;
+  padding-bottom: 26px;
+  padding-top: 26px;
+}
+
+.mobile-black-content {
+   border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
 
 
 /*VERSION DESKTOP*/
@@ -321,4 +331,9 @@ h2 {
 .ContenidoTarifas {
  padding-top: 50px;
 }
+
+/*seccion 5*/
+
+
+
 }
