@@ -74,8 +74,9 @@ button.btn-border {
 
 .bg-color-orange{
   background-color: #f7b617;
+  padding-bottom: 26px;
+  padding-top: 26px;
 }
-
 
 /* cuadro de Registro Naranja Movile*/
 @media (max-width: 600px) {
@@ -120,7 +121,6 @@ h3 {
 
 /*Clases reutilizables*/
 
-
 .mobile {
   display: block;
   padding: 25px;
@@ -128,7 +128,7 @@ h3 {
 
 .desktop {
   display: none;
-  padding: 35px 0 35px;
+
 }
 
 /*fin Clases reutilizables*/
@@ -138,49 +138,45 @@ h3 {
   font-weight: bold;
 }
 
-.m-content{
+.m-content {
   border: 1px solid white;
   padding: 15px;
 }
 
-
 .image-phone {
-  height: 312px;
+  height: 250px;
   display: inline-block;
 }
-
 /*section 3*/
-
-.image-conduce{
-  background-image: url(../assets/images/conduce.jpg);
+.image-conduce {
+  background-image: url(../assets/images/conduceopacity.jpg);
   height: 400px;
 }
-
-.m-blackDiv{
-  background-color:black;
-  width: 100%;
-  height: 100%;
-  opacity: 0.5;
+.info {
+  margin-top: 90px;
 }
 
-.info{
-  margin: 110px 20px;
-}
-
-.info h3{
+.info h3 {
   margin-bottom: 15px;
 }
 
-.info button{
+.info button {
   background-color: #f7b617;
   color: #fff;
   border: none;
 }
+
 /*section 4*/
+.bgcolor-orange {
+  background-color: #f7b617;
+}
+
+.ContenidoTarifas {
+ padding-top: 120px;
+}
 
 
 /*section 5*/
-
 
 
 /*VERSION DESKTOP*/
@@ -242,6 +238,7 @@ h3 {
   font-size: 15px;
   padding: 15px;
 }
+
 .M-whitelogo {
   margin-left: 8px;
   width: 70px;
@@ -251,7 +248,7 @@ h3 {
 
 /*section 2*/
 
-.mobile{
+.mobile {
   display: none;
 }
 
@@ -259,24 +256,24 @@ h3 {
   display: block;
 }
 
-.desk-content{
+.desk-content {
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   border-top: 1px solid white;
   border-left: none;
-  padding: 25px;
   padding-right: 70px;
   display: inline-block;
 }
 
-.image-phone{
+.image-phone {
   height: 400px;
+  padding: 10px;
   display: inline-block;
   margin-left: 150px; /*pasar a grid sistem*/
   vertical-align: initial;
 }
 
-.about{
+.about {
   width: 350px;
   text-align: justify;
   display: inline-block;
@@ -285,7 +282,7 @@ h3 {
   vertical-align: top;
 }
 
-.about h2{
+.about h2 {
   color: white;
   margin: 25px 0;
 }
@@ -295,4 +292,33 @@ h3 {
   font-size: 18px;
 }
 
+/*seccion 3*/
+
+.image-conduce {
+  background-image: url(../assets/images/conduce.jpg);
+  height: 400px;
  }
+
+.info {
+  margin-top: 22px;
+  float: right;
+  background-color: #00000078;
+}
+
+.ContenidoDeskRight {
+  margin: 70px;
+}
+
+h2 {
+  font-size: 23px;
+}
+
+.btn-lg {
+    margin-top: 20px;
+}
+
+/*seccion 4*/
+.ContenidoTarifas {
+ padding-top: 50px;
+}
+}
