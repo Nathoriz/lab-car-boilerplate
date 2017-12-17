@@ -152,6 +152,7 @@ h3 {
   background-image: url(../assets/images/conduceopacity.jpg);
   height: 400px;
 }
+
 .info {
   margin-top: 90px;
 }
@@ -310,9 +311,10 @@ h3 {
  }
 
 .info {
-  margin-top: 22px;
   float: right;
   background-color: #00000078;
+  margin-top: 0;
+  height: 400px;
 }
 
 .ContenidoDeskRight {
