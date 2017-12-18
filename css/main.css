@@ -189,6 +189,28 @@ h3 {
   color: white;
 }
 
+/* para Chrome */
+
+input.form-control::-webkit-input-placeholder { 
+  color: white; 
+}
+
+/*Aùn no se ha revisado su utilidad ▼*/
+
+/* para Firefox */
+
+input.form-control:-moz-placeholder { 
+  color: white; 
+}
+
+/* para Internet Explorer */
+
+input.form-control:-ms-input-placeholder { 
+  color: white; 
+}
+
+/*Aùn no se ha revisado su utilidad ▲ */
+
 .btn-Rute {
   margin: 20px 30%;
 }
