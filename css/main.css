@@ -30,6 +30,98 @@ div {
   box-sizing: border-box;
 }
 
+/*modal*/
+
+.profile .image-profile{
+  margin-left: 35%;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.image-profile {
+  background-image: url(../assets/images/profile.png);
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+
+.signIn{
+  background-color: #f5f5f5;
+  border: 1px solid #f5f5f5;
+  border-radius: 7px;
+  text-align: center;
+  width: 300px;
+  margin-left: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 20px 25px;
+}
+
+.input-group input{
+  max-width: 100%;
+}
+
+.input-group{
+  margin-top: 30px;
+}
+
+.red-text{
+  color: red;
+}
+
+.login{
+  margin-top: 20px;
+}
+
+.bgColor-green-light{
+  background-color: #08ac9d;
+}
+
+/*modal2*/
+.bgcolor-grey{
+  background-color: #a9a9a9;
+}
+
+.registrer-modal{
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.registrer-modal p{
+  font-size: 20px;
+}
+
+.registrer-modal button, .registrer-modal p, .registrer-modal input {
+  margin-top: 15px;
+}
+
+button.bg-color-black{
+  width: 100%;
+  color: white;
+  padding: 10px;
+}
+
+input.name, input.surname{
+  width: 46%;
+  padding: 5px;
+}
+
+input.surname{
+  margin-left: 4%;
+}
+
+.bgcolor-grey-light{
+  background-color: #dddddd;
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.bg-color-cyan{
+  background-color: #5bc0de;
+  width: 100%;
+}
+
+
 /*header*/
 
 button.btn-left {
@@ -191,7 +283,7 @@ h3 {
 
 /* para Chrome */
 
-input.form-control::-webkit-input-placeholder { 
+input.colorWhite::-webkit-input-placeholder { 
   color: white; 
 }
 
@@ -199,13 +291,13 @@ input.form-control::-webkit-input-placeholder {
 
 /* para Firefox */
 
-input.form-control:-moz-placeholder { 
+input.colorWhite:-moz-placeholder { 
   color: white; 
 }
 
 /* para Internet Explorer */
 
-input.form-control:-ms-input-placeholder { 
+input.colorWhite:-ms-input-placeholder { 
   color: white; 
 }
 

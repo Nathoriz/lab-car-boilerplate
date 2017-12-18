@@ -115,13 +115,13 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label"><img src="assets/images/shape.png" alt="icon record"></label>
                         <div class="col-sm-10 inline-block">
-                            <input type="text" class="form-control bgcolor-orange bder-white" placeholder="Ingrese su punto de partida">
+                            <input type="text" class="form-control bgcolor-orange bder-white colorWhite" placeholder="Ingrese su punto de partida">
                         </div>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label"><img src="assets/images/shape2.png" alt="icon paper-plane"></label>
                         <div class="col-sm-10 inline-block">
-                            <input type="text" class="form-control bgcolor-orange bder-white" placeholder="Ingrese su destino">
+                            <input type="text" class="form-control bgcolor-orange bder-white colorWhite" placeholder="Ingrese su destino">
                         </div>
                     </div>
                     <div class="form-group">
@@ -204,70 +204,63 @@
 
         </section>
 
- <!-- Modal -->
+        <!-- Modal -->
 
-      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <div class="profile">
-                    <div class="image-profile"></div>
-                </div>
-      </div>
-      <div class="modal-body">
-            <form>
-                    <div class="input-group">
-                        <span class="fa fa-user"></span>
-                        <input type="text" class="form-control modal-input" placeholder="Username">
-                    </div>
-                        <div class="input-group">
-                            <span class="fa fa-lock"></span>
-                            <input type="text" class="form-control modal-input" placeholder="Password">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content bgColor-green-light">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <div class="profile">
+                            <div class="image-profile"></div>
                         </div>
-                </form>
-      </div>
-      <div class="modal-footer">
-            <button class="btn amber darken-1">LOGING</button>
-            <p class="password-text">Forgot Password? <span class="red-text">Click Here</span></p>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="signIn">
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                <input type="text" class="form-control modal-input inline-block" placeholder="Username">
+                            </div>
+                            <div class="input-group">
+                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                <input type="text" class="form-control modal-input inline-block" placeholder="Password">
+                            </div>
+                            <div class="login">
+                                <button class="btn bgcolor-orange">LOGING</button>
+                                <p class="password-text">Forgot Password? <a href="#" class="red-text">Click Here</a></p>
+                            </div>      
+                        </form>
+                    </div>          
                 </div>
-                <div class="modal-body">
-                        <form>
-                                <button class="btn black">Ya tienes una cuenta?</button>
-                                <p> o crea una cuenta nueva</p>
-                
-                                <input type="text" class=" input-inline modal-input" placeholder="Nombre">
-                                <input type="text" class=" input-inline modal-input" placeholder="Apellido">
-                
-                                <input type="text" class="form-control modal-input" placeholder="Correo Electrónico: ejemplo@correo.mx">
-                                <input type="text" class="form-control modal-input" placeholder="Teléfono">
-                                <input type="text" class="form-control modal-input" placeholder="Contraseña">
-                                <input type="text" class="form-control modal-input" placeholder="Ciudad">
-                                <input type="text" class="form-control modal-input" placeholder="(Opcional) Código de Invitación">
-                                
-                                <button class="btn grey lighten-2">Cómo te enteraste de nosotros?
-                                    <span class="fa fa-chevron-down"></span>
-                                </button>
-                            </form>
-                </div>
-                <div class="modal-footer">
-                        <button class="btn cyan">Enviar</button>
+            </div>
+        </div>
+
+        <!-- Modal -->
+
+        <div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content bgcolor-grey">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <form class="registrer-modal">
+                            <button class="btn bg-color-black">Ya tienes una cuenta?</button>
+                            <p> o crea una cuenta nueva</p>
+                            <input type="text" class=" input-inline name modal-input" placeholder="Nombre">
+                            <input type="text" class=" input-inline surname modal-input" placeholder="Apellido">
+                            <input type="text" class="form-control modal-input" placeholder="Correo Electrónico: ejemplo@correo.mx">
+                            <input type="text" class="form-control modal-input" placeholder="Teléfono">
+                            <input type="text" class="form-control modal-input" placeholder="Contraseña">
+                            <input type="text" class="form-control modal-input" placeholder="Ciudad">
+                            <input type="text" class="form-control modal-input" placeholder="(Opcional) Código de Invitación">
+                            <button class="btn bgcolor-grey-light"><b> Cómo te enteraste de nosotros?</b>
+                                <span class="fa fa-chevron-down"></span>
+                            </button>
+                            <button class="btn bg-color-cyan">Enviar</button>
+                        </form>
                     </div>
                 </div>
-              </div>
             </div>
+        </div>
 
          <!-- Modal -->
 <div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -291,6 +284,6 @@
 
     </body>
     <script src="vendors/js/jquery-3.2.1.js"></script>
-    <script src="vendors/bootstrap-3.3.7-dist/css/bootstrap.min.css"></script> 
+    <script src="vendors/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script> 
     <script src="js/app.js"></script>
 </html>
