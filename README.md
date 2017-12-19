@@ -3,6 +3,7 @@
 
 Reto asignado por Laboratoria que consiste en recrear la siguiente página web. 
 
+Utilizando el framework **__Bootstrap__**.
 
 Donde las imágenes y todo lo que necesitaremos lo encuentraremos en un pagina  de github , donde se necesitara hacer un [**fork**](https://github.com/Laboratoria-learning/lab-car-boilerplate) del repositorio y clonarlo en tu máquina.
 
@@ -13,6 +14,22 @@ Donde las imágenes y todo lo que necesitaremos lo encuentraremos en un pagina  
 * ### __2. La versión Movil__
 
 ![](assets/images/movil.png)
+
+* ### __3. Modales__
+
+Como extra puedes añadir los modales necesarios en la versión web
+
+Modal de Inicia Sesión modal-sesion
+
+![](assets/images/modal-inicio-sesion.png)
+
+Modal de Regístrate modal-sesion
+
+![](assets/images/modal-registrate.png)
+
+Modal de Convierte en conductor 
+
+![](assets/images/modal-conductor.png)
 
 ## __Contenido__
 

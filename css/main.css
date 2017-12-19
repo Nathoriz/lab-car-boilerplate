@@ -119,9 +119,20 @@ input.surname{
 .bg-color-cyan{
   background-color: #5bc0de;
   width: 100%;
+  padding: 7px;
+  color: white;
+  font-size: 20px;
 }
 
 /*modal 3*/
+
+.formCar{
+  padding: 20px 35px;
+}
+
+.select-modal3, .input-modal3, .btn-modal3{
+  margin-top: 15px;
+}
 
 
 /*header*/
